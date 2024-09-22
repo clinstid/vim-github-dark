@@ -254,7 +254,7 @@ hi! link ALEVirtualTextWarning WarningMsg
 " bib
 
 hi! link bibEntryKw LibraryIdent
-hi! link bibKey IdentifierDef
+hi! link bibKey Identifier
 hi! link bibType LibraryType
 
 " C
@@ -358,7 +358,7 @@ hi! link goFunction FunctionDef
 hi! link goLabel Keyword
 hi! link goType Normal
 hi! link goVarAssign LocalIdent
-hi! link goVarDefs IdentifierDef
+hi! link goVarDefs Identifier
 
 " Vim help
 
@@ -423,7 +423,7 @@ hi! link jsOperatorKeyword jsStatement
 hi! link jsParensIfElse jsFuncBraces
 hi! link jsParens jsFuncBraces
 hi! link jsThis jsStatement
-hi! link jsVariableDef IdentifierDef
+hi! link jsVariableDef Identifier
 hi! link jsBooleanFalse GhBlue
 hi! link jsBooleanTrue jsBooleanFalse
 hi! link jsRepeat Keyword
@@ -466,11 +466,11 @@ hi! link rsForeignConst LibraryIdent
 hi! link rsForeignFunc LibraryFunc
 hi! link rsForeignType LibraryType
 hi! link rsFuncDef FunctionDef
-hi! link rsIdentDef IdentifierDef
+hi! link rsIdentDef Identifier
 hi! link rsLibraryConst LibraryIdent
 hi! link rsLibraryFunc LibraryFunc
 hi! link rsLibraryType LibraryType
-hi! link rsLifetimeDef IdentifierDef
+hi! link rsLifetimeDef Identifier
 hi! link rsSpecialLifetime LibraryIdent
 hi! link rsUserConst LocalIdent
 hi! link rsUserFunc LocalFunc
@@ -530,7 +530,7 @@ hi! link shWrapLineOperator shParen
 " swift
 
 hi! link swiftFuncDef FunctionDef
-hi! link swiftIdentDef IdentifierDef
+hi! link swiftIdentDef Identifier
 hi! link swiftLibraryFunc LibraryFunc
 hi! link swiftLibraryProp LibraryIdent
  hi! link swiftLibraryType LibraryType
@@ -576,7 +576,7 @@ hi! link typescriptPredefinedType LibraryType
 hi! link typescriptTypeAnnotation Delimiter
 hi! link typescriptTypeReference typescriptUserDefinedType
 hi! link typescriptUserDefinedType LocalType
-hi! link typescriptVariableDeclaration IdentifierDef
+hi! link typescriptVariableDeclaration Identifier
 hi! link typescriptVariable Keyword
 
 " vim
@@ -605,7 +605,7 @@ hi! link vimOption LibraryIdent
 hi! link vimParenSep vimSep
 hi! link vimSep Normal
 hi! link vimUserFunc LocalFunc
-hi! link vimVar Normal
+hi! link vimVar Identifier
 hi! link vimUserAttrb Identifier
 hi! link vimUserCommand vimUserAttrb
 hi! link vimPatSepR GhGreen
